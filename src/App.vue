@@ -21,6 +21,12 @@
     list-style-type:none;
   }
 
+  hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+  }
+
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -36,5 +42,9 @@
 
   .container{
     padding-left: 16px;
+  }
+
+  .desc{
+    font-size: 14em;
   }
 </style>

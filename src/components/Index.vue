@@ -11,6 +11,16 @@
       <ul id="repos" class="container">
         <li v-for="repo in repos">
           <a target="_blank" v-bind:href="repo.html_url">{{ repo.name }}</a>
+          <br/>
+          <div class=".desc">
+            {{ repo.description }}
+          </div>
+          <div class=".desc">
+            {{ repo.language }}
+            | {{ repo.stargazers_count }}
+            | updated {{ repo.updated_at }}
+          </div>
+          <hr>
         </li>
       </ul>
     </div>
